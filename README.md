@@ -8,10 +8,10 @@ This project uses ML to predict whether a person belongs to the **high-cost** gr
 - Generates a "Risk Score" for individuals.
 - Explains which factors (like smoking or age) are pushing costs up the most.
 
-![Dashboard Overview](assets/dashboard.png)
+![Dashboard Overview](assets/dashboard1.jpeg)
 *Interactive Dashboard Mockup*
 
-![Risk Insights](assets/insights.png)
+![Risk Insights](assets/dashboard2.png)
 *AI Risk Drivers Interpretation*
 
 ## How to Run
