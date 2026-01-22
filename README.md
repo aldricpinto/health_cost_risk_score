@@ -8,6 +8,12 @@ This project uses ML to predict whether a person belongs to the **high-cost** gr
 - Generates a "Risk Score" for individuals.
 - Explains which factors (like smoking or age) are pushing costs up the most.
 
+![Dashboard Overview](assets/dashboard.png)
+*Interactive Dashboard Mockup*
+
+![Risk Insights](assets/insights.png)
+*AI Risk Drivers Interpretation*
+
 ## How to Run
 
 1. **Install requirements:**
@@ -16,7 +22,7 @@ This project uses ML to predict whether a person belongs to the **high-cost** gr
    ```
 
 2. **Launch the Dashboard (Recommended):**
-   This opens a beautiful, interactive page in your browser to see the results and test the AI.
+   This opens a beautiful, interactive page in your browser to see the results and test the model.
    ```bash
    streamlit run src/dashboard.py
    ```
@@ -28,6 +34,6 @@ This project uses ML to predict whether a person belongs to the **high-cost** gr
 
 ## What's Created?
 
-- `outputs/model.joblib`: The "brain" of the AI.
+- `outputs/model.joblib`: The "brain" of the model.
 - `outputs/scored.csv`: A spreadsheet containing everyone's original data + their new **Risk Score**.
 - `outputs/insights.txt`: A simple text file explaining the top risk drivers.
