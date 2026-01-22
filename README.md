@@ -1,4 +1,4 @@
-# Health Cost Risk Score Project 🏥
+# Health Cost Risk Copilot 🏥
 
 This project uses ML to predict whether a person belongs to the **high-cost** group (top 10% of medical charges) based on simple factors like age, BMI, and lifestyle habits. It then assigns a "Risk Score" from 0 to 100 for every individual.
 
